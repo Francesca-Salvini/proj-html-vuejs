@@ -1,0 +1,28 @@
+// JUMBOTRON 
+
+.jumbotron {
+    position: relative;
+
+    .jumbo_text {
+        position: absolute;
+        top: 30%;
+        left: 18%;
+        color: $brand_color_text_white;
+
+        h1 {
+            font-size: 150px;
+            
+        }
+
+        p {
+            padding: 30px 0;
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        button i {
+            padding-left: 10px;
+        }
+    }
+}

@@ -2,7 +2,20 @@
     background-color: $brand_darker_color;
     color: $brand_color_text_white;
     text-transform: uppercase;
-    padding: 8px 12px;
+    padding: 12px 22px;
     border: none;
-    font-size: 9px;
+    font-size: 13px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+.blue_bg {
+    background-color: $brand_buttons_color;
+    color: $brand_color_text_white;
+    text-transform: uppercase;
+    padding: 14px 22px;
+    border: none;
+    font-size: 13px;
+    border-radius: 2px;
+    font-weight: 700;
 }

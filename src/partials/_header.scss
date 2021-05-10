@@ -9,7 +9,6 @@ header {
             display: inline-block;
             
             img {
-                width: 80%;
                 padding: 15px;
             }
         } 
@@ -17,11 +16,11 @@ header {
         nav {
             display: flex;
             align-items: center;
-            font-size: 12px;
+            font-size: 15px;
             ul {
                 list-style-type: none;
                 li {
-                    margin: 0px 15px;
+                    margin: 0px 25px;
                     a {
                         color: $brand_color_text_white;
                         text-decoration: none;
