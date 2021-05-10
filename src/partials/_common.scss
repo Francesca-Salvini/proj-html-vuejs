@@ -23,3 +23,29 @@ img {
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
+
+// 2. SECTION WITH GREY BG COLOR
+
+.sect_grey_bg {
+    background-color: $brand_color_bg_grey;
+    text-align: center;
+    padding: 60px 0;
+
+    p {
+        color: $brand_color_text_grey;
+        width: 34%;
+        margin: auto;
+        font-weight: 300;
+        padding-top: 20px;
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+}
+
+h3 {
+    color: $brand_color_small_title;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+

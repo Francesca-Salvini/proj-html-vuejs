@@ -39,6 +39,28 @@ body {
   font-family: "Fira Sans Condensed", sans-serif;
 }
 
+.sect_grey_bg {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 60px 0;
+}
+.sect_grey_bg p {
+  color: #969799;
+  width: 34%;
+  margin: auto;
+  font-weight: 300;
+  padding-top: 20px;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+h3 {
+  color: #3b3d3f;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
 header {
   background-color: #27aabe;
 }
@@ -72,18 +94,18 @@ header .wrapper nav i {
   color: #ffffff;
   padding-left: 30px;
 }
-header .wrapper .square {
+
+.jumbotron {
+  position: relative;
+}
+.jumbotron .square {
   background-color: #27aabe;
   width: 20px;
   height: 20px;
   transform: rotate(45deg);
   position: absolute;
   left: 50%;
-  top: 85%;
-}
-
-.jumbotron {
-  position: relative;
+  bottom: 99%;
 }
 .jumbotron .jumbo_text {
   position: absolute;
