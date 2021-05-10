@@ -1,0 +1,51 @@
+header {
+    background-color: $brand_header_color;
+    
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        .logo {
+            display: inline-block;
+            
+            img {
+                width: 80%;
+                padding: 15px;
+            }
+        } 
+    
+        nav {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            ul {
+                list-style-type: none;
+                li {
+                    margin: 0px 15px;
+                    a {
+                        color: $brand_color_text_white;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            i {
+                color: $brand_color_text_white;
+                padding-left: 30px ;
+            }
+        }
+
+        .square {
+            background-color: $brand_header_color;
+            width: 20px;
+            height: 20px;
+            transform: rotate(45deg);
+            position: absolute;
+            left: 50%;
+            top: 85%;
+            
+        }
+    }
+
+    
+}

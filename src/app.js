@@ -1,7 +1,9 @@
 var app = new Vue (
     {
         el: '#root',
-        data : {},
+        data : {
+            navbar: ['Home', 'Apple', 'Microsoft', 'Android', 'Forums', 'Contact us']
+        },
         methods: {
         }
         

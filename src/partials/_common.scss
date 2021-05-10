@@ -1,4 +1,25 @@
+// RESET
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// IMMAGINI
+
+img {
+    width: 100%;
+}
+
+
 // WRAPPER 
 .wrapper {
-    max-width: 70%;
+    max-width: 65%;
+    margin: auto;
+}
+
+// FONT
+
+body {
+    font-family: 'Fira Sans', sans-serif;
 }

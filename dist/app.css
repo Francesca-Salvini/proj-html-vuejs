@@ -1,3 +1,71 @@
+.black_bg {
+  background-color: #1a1b1b;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border: none;
+  font-size: 9px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
 .wrapper {
-  max-width: 70%;
+  max-width: 65%;
+  margin: auto;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+header {
+  background-color: #27aabe;
+}
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+header .wrapper .logo {
+  display: inline-block;
+}
+header .wrapper .logo img {
+  width: 80%;
+  padding: 15px;
+}
+header .wrapper nav {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+header .wrapper nav ul {
+  list-style-type: none;
+}
+header .wrapper nav ul li {
+  margin: 0px 15px;
+}
+header .wrapper nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header .wrapper nav i {
+  color: #ffffff;
+  padding-left: 30px;
+}
+header .wrapper .square {
+  background-color: #27aabe;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 50%;
+  top: 85%;
 }

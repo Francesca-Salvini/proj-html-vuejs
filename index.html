@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avada Forum</title>
 
+    <!--GOOGLE FONTS: FIRA SANS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
     <!--VUE-->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+    <!--FONTAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 
     <!--CSS-->
     <link rel="stylesheet" href="dist/app.css">
@@ -17,11 +24,32 @@
     <div id="root">
 
         <!--HEADER-->
+        <header>
+            
+        <div class="wrapper">
+            <!--sezione di sinistra: logo-->
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo Avada">
+            </div>
 
-        <!--sezione di sinistra: logo-->
+            <!--sezione di destra: navbar (da popolare con VUE)-->
+            <nav>
+                <ul v-for="item in navbar">
+                    <li>
+                        <a href="#">{{item}}</a>
+                    </li>
 
-        <!--sezione di destra: navbar (da popolare con VUE)-->
+                </ul>
 
+                <button class="black_bg">join us</button>
+
+                <i class="fas fa-search"></i>
+            </nav>
+
+            <div class="square"></div>
+        </div>
+        
+        </header>
         <!--FINE HEADER-->
 
         <!--MAIN-->
