@@ -49,3 +49,26 @@ h3 {
     letter-spacing: 4px;
 }
 
+.sect_title {
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+
+    h3 {
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        padding: 15px 0;
+        font-size: 35px;
+    }
+
+    .divisory {
+        background-color: $brand_color_divisory;
+        height: 2px;
+        width: 60px;
+        margin: 15px 0;
+        position: absolute;
+        left: 48%;
+    }
+}

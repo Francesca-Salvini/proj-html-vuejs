@@ -61,6 +61,27 @@ h3 {
   letter-spacing: 4px;
 }
 
+.sect_title {
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+}
+.sect_title h3 {
+  text-transform: uppercase;
+}
+.sect_title h2 {
+  padding: 15px 0;
+  font-size: 35px;
+}
+.sect_title .divisory {
+  background-color: #fc8c5e;
+  height: 2px;
+  width: 60px;
+  margin: 15px 0;
+  position: absolute;
+  left: 48%;
+}
+
 header {
   background-color: #27aabe;
 }
