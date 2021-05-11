@@ -14,27 +14,22 @@
         
     }
 
-    .jumbo_text {
-        position: absolute;
-        top: 30%;
-        left: 18%;
-        color: $brand_color_text_white;
+    p {
+        font-size: 10px;
+    }
 
-        h1 {
-            font-size: 150px;
-            
-        }
-
-        p {
-            padding: 30px 0;
-            font-size: 20px;
-            font-weight: 300;
-            letter-spacing: 2px;
-        }
-
-        button i {
-            padding-left: 10px;
+    &.scd-jumb {
+        padding-top: 45px;
+        .jumbo_text {
+            left: 8%;
+            top: 45%;
+        
+            p {
+                font-size: 13px;
+                width: 80%;
+            }
         }
     }
+    
 }
 

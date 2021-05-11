@@ -42,11 +42,25 @@ body {
     }
 }
 
+h2 {
+    color: $brand_color_text_white;
+    padding-top: 20px;
+    font-size: 26px;
+
+}
 h3 {
     color: $brand_color_small_title;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 4px;
+}
+
+h4 {
+    color: $brand_color_text_white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 .sect_title {

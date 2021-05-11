@@ -20,6 +20,25 @@
   font-weight: 700;
 }
 
+.jumbotron .jumbo_text {
+  position: absolute;
+  top: 30%;
+  left: 18%;
+  color: #ffffff;
+}
+.jumbotron .jumbo_text h1 {
+  font-size: 150px;
+}
+.jumbotron .jumbo_text p {
+  padding: 30px 0;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.jumbotron .jumbo_text button i {
+  padding-left: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -54,11 +73,25 @@ body {
   font-size: 18px;
 }
 
+h2 {
+  color: #ffffff;
+  padding-top: 20px;
+  font-size: 26px;
+}
+
 h3 {
   color: #3b3d3f;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 4px;
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .sect_title {
@@ -150,21 +183,17 @@ header .wrapper nav i {
   left: 50%;
   bottom: 99%;
 }
-.jumbotron .jumbo_text {
-  position: absolute;
-  top: 30%;
-  left: 18%;
-  color: #ffffff;
+.jumbotron p {
+  font-size: 10px;
 }
-.jumbotron .jumbo_text h1 {
-  font-size: 150px;
+.jumbotron.scd-jumb {
+  padding-top: 45px;
 }
-.jumbotron .jumbo_text p {
-  padding: 30px 0;
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 2px;
+.jumbotron.scd-jumb .jumbo_text {
+  left: 8%;
+  top: 45%;
 }
-.jumbotron .jumbo_text button i {
-  padding-left: 10px;
+.jumbotron.scd-jumb .jumbo_text p {
+  font-size: 13px;
+  width: 80%;
 }
