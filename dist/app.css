@@ -39,6 +39,19 @@
   padding-left: 10px;
 }
 
+.link-to {
+  color: #ffffff;
+  background-color: #202325;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+.link-to i {
+  padding-left: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -198,6 +211,10 @@ header .wrapper nav i {
 .jumbotron.scd-jumb .jumbo_text p {
   font-size: 13px;
   width: 80%;
+}
+
+.macro {
+  padding-bottom: 90px;
 }
 
 .jumbo-3-pics {

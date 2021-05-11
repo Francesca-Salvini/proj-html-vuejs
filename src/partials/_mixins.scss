@@ -46,3 +46,18 @@
         }
     }
 }
+
+// LINK TO BLOG / LINK TO FORUM 
+
+.link-to {
+    color: $brand_color_text_white;
+    background-color: $brand_color_linkto;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 0;
+    font-size: 15px;
+    font-weight: 700;
+    i {
+        padding-left: 10px;
+    }
+}
