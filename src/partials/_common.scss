@@ -29,7 +29,7 @@ body {
 .sect_grey_bg {
     background-color: $brand_color_bg_grey;
     text-align: center;
-    padding: 60px 0;
+    padding-top: 30px;
 
     p {
         color: $brand_color_text_grey;
@@ -73,6 +73,7 @@ h4 {
     }
     
     h2 {
+        color: $brand_color_small_title;
         padding: 15px 0;
         font-size: 35px;
     }
@@ -91,7 +92,7 @@ h4 {
 
 .sect_images {
     display: flex;
-
+    padding-top: 30px;
     .one-pic-description:nth-child(2) {
         padding: 0px 20px;
 

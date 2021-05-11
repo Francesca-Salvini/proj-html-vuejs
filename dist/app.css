@@ -61,7 +61,7 @@ body {
 .sect_grey_bg {
   background-color: #f2f2f2;
   text-align: center;
-  padding: 60px 0;
+  padding-top: 30px;
 }
 .sect_grey_bg p {
   color: #969799;
@@ -103,6 +103,7 @@ h4 {
   text-transform: uppercase;
 }
 .sect_title h2 {
+  color: #3b3d3f;
   padding: 15px 0;
   font-size: 35px;
 }
@@ -117,6 +118,7 @@ h4 {
 
 .sect_images {
   display: flex;
+  padding-top: 30px;
 }
 .sect_images .one-pic-description:nth-child(2) {
   padding: 0px 20px;
