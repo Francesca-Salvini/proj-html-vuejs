@@ -82,6 +82,28 @@ h3 {
   left: 48%;
 }
 
+.sect_images {
+  display: flex;
+}
+.sect_images .one-pic-description:nth-child(2) {
+  padding: 0px 20px;
+}
+.sect_images .description {
+  padding-top: 10px;
+  color: #969799;
+}
+.sect_images .description h5 {
+  color: #3b3d3f;
+  padding-bottom: 5px;
+}
+.sect_images .description span, .sect_images .description p {
+  font-size: 12px;
+}
+.sect_images .description p {
+  padding-top: 12px;
+  line-height: 21px;
+}
+
 header {
   background-color: #27aabe;
 }

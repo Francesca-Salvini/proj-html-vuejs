@@ -72,3 +72,34 @@ h3 {
         left: 48%;
     }
 }
+
+// SECTION WITH 3 IMAGES AND DESCRIPTION
+
+.sect_images {
+    display: flex;
+
+    .one-pic-description:nth-child(2) {
+        padding: 0px 20px;
+
+        
+    }
+
+    .description {
+        padding-top: 10px;
+        color: $brand_color_text_grey;
+
+        h5 {
+            color: $brand_color_small_title;
+            padding-bottom: 5px;
+        }
+
+        span, p {
+            font-size: 12px;
+        }
+
+        p {
+            padding-top: 12px;
+            line-height: 21px;
+        }
+    }
+}
