@@ -212,6 +212,21 @@ header .wrapper nav i {
   font-size: 13px;
   width: 80%;
 }
+.jumbotron.last {
+  text-align: center;
+}
+.jumbotron.last img {
+  height: 600px;
+}
+.jumbotron.last h1 {
+  font-size: 60px;
+  width: 50%;
+  margin: auto;
+}
+.jumbotron.last p {
+  width: 60%;
+  margin: auto;
+}
 
 .macro {
   padding-bottom: 90px;
