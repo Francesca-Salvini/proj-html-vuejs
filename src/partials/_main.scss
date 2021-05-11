@@ -33,3 +33,48 @@
     
 }
 
+// SUBSECTION : JUMBOTRON + 3 PICTURES
+
+.jumbo-3-pics {
+    display: flex;
+
+    .scd-jumb {
+        position: relative;
+        width: 68%;
+        .jumbo_text {
+            position: absolute;
+            top: 38%;
+            left: 8%;
+        }
+    }
+
+    .sect_title {
+        padding-top: 22px;
+        padding-bottom: 33px;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .title-pics {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 68%);
+    }
+
+    .sect_images {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        .one-pic-description {
+            display: flex;
+            padding: 15px;
+
+            img {
+                width: 160px;
+                height: 120px;
+                margin-right: 15px;
+            }
+        }
+            
+    }
+}

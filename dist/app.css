@@ -199,3 +199,41 @@ header .wrapper nav i {
   font-size: 13px;
   width: 80%;
 }
+
+.jumbo-3-pics {
+  display: flex;
+}
+.jumbo-3-pics .scd-jumb {
+  position: relative;
+  width: 68%;
+}
+.jumbo-3-pics .scd-jumb .jumbo_text {
+  position: absolute;
+  top: 38%;
+  left: 8%;
+}
+.jumbo-3-pics .sect_title {
+  padding-top: 22px;
+  padding-bottom: 33px;
+  text-align: left;
+  padding-left: 15px;
+}
+.jumbo-3-pics .title-pics {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 68%);
+}
+.jumbo-3-pics .sect_images {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+}
+.jumbo-3-pics .sect_images .one-pic-description {
+  display: flex;
+  padding: 15px;
+}
+.jumbo-3-pics .sect_images .one-pic-description img {
+  width: 160px;
+  height: 120px;
+  margin-right: 15px;
+}
