@@ -152,6 +152,45 @@ h4 {
   line-height: 21px;
 }
 
+.tabs {
+  padding-top: 80px;
+}
+.tabs ul {
+  list-style-type: none;
+  display: flex;
+  width: 77%;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tabs ul li {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+  border-top: 2px solid #399bc0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.tabs ul li i {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fc8c5e;
+  position: absolute;
+  top: 20%;
+  font-size: 35px;
+  line-height: 57px;
+  color: #ffffff;
+}
+.tabs ul li span {
+  font-size: 14px;
+  padding-top: 65px;
+}
+
 header {
   background-color: #27aabe;
 }
