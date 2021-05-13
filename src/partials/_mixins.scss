@@ -7,6 +7,11 @@
     font-size: 13px;
     border-radius: 2px;
     font-weight: 700;
+
+    &.larger {
+        padding: 12px 75px;
+        margin-left: 20px;
+    }
 }
 
 .blue_bg {
