@@ -12,16 +12,24 @@
   padding: 12px 75px;
   margin-left: 20px;
 }
+.black_bg:hover {
+  transition: background-color 0.2s;
+  background-color: #fc8c5e;
+}
 
 .blue_bg {
   background-color: #27aabe;
   color: #ffffff;
   text-transform: uppercase;
-  padding: 14px 22px;
+  padding: 18px 32px;
   border: none;
-  font-size: 13px;
+  font-size: 18px;
   border-radius: 2px;
   font-weight: 700;
+}
+.blue_bg:hover {
+  transition: background-color 0.2s;
+  background-color: #fc8c5e;
 }
 
 .jumbotron .jumbo_text {
@@ -72,7 +80,7 @@ img {
 }
 
 body {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .sect_grey_bg {
@@ -227,6 +235,7 @@ header .wrapper .logo {
 }
 header .wrapper .logo img {
   padding: 15px;
+  width: 230px;
 }
 header .wrapper nav {
   display: flex;

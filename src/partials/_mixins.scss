@@ -12,18 +12,33 @@
         padding: 12px 75px;
         margin-left: 20px;
     }
+
+    // passandoci sopra, il tasto cambia colore
+    &:hover {
+        transition: background-color 0.2s;
+        background-color: $brand_color_onhover;
+
+    }
 }
 
 .blue_bg {
     background-color: $brand_buttons_color;
     color: $brand_color_text_white;
     text-transform: uppercase;
-    padding: 14px 22px;
+    padding: 18px 32px;
     border: none;
-    font-size: 13px;
+    font-size: 18px;
     border-radius: 2px;
     font-weight: 700;
+
+    // passandoci sopra, il tasto cambia colore
+    &:hover {
+        transition: background-color 0.2s;
+        background-color: $brand_color_onhover;
+
+    }
 }
+
 
 // JUMBOTRON
 
