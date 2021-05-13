@@ -86,16 +86,16 @@ body {
 .sect_grey_bg {
   background-color: #f2f2f2;
   text-align: center;
-  padding-top: 30px;
+  padding: 90px 0;
 }
 .sect_grey_bg p {
-  color: #969799;
-  width: 34%;
+  color: #62676c;
+  width: 50%;
   margin: auto;
   font-weight: 300;
   padding-top: 20px;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 hr {
@@ -110,9 +110,10 @@ h2 {
 
 h3 {
   color: #3b3d3f;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 4px;
+  padding-bottom: 15px;
 }
 
 h4 {
@@ -147,9 +148,9 @@ h6 {
   text-transform: uppercase;
 }
 .sect_title h2 {
-  color: #3b3d3f;
+  color: #202325;
   padding: 15px 0;
-  font-size: 35px;
+  font-size: 48px;
 }
 .sect_title .divisory {
   background-color: #fc8c5e;
@@ -172,8 +173,8 @@ h6 {
   color: #969799;
 }
 .sect_images .description h5 {
-  color: #3b3d3f;
-  padding-bottom: 5px;
+  font-weight: 700;
+  padding: 0px 0px 5px 0px;
 }
 .sect_images .description span, .sect_images .description p {
   font-size: 12px;
@@ -278,6 +279,9 @@ header .wrapper nav i {
 .jumbotron.scd-jumb .jumbo_text {
   left: 8%;
   top: 45%;
+}
+.jumbotron.scd-jumb .jumbo_text h2 {
+  font-size: 40px;
 }
 .jumbotron.scd-jumb .jumbo_text p {
   font-size: 13px;
