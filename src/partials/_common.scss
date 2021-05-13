@@ -105,6 +105,11 @@ h6 {
         margin: 15px 0;
         position: absolute;
         left: 48%;
+
+        &:nth-child(2) {
+            left: 15px;
+        }
+        
     }
 }
 

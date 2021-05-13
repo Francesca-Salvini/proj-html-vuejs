@@ -74,10 +74,15 @@
     background-color: $brand_color_linkto;
     text-align: center;
     text-transform: uppercase;
-    padding: 40px 0;
-    font-size: 15px;
+    padding: 70px 0;
+    font-size: 18px;
     font-weight: 700;
     i {
         padding-left: 10px;
+    }
+
+    &:hover {
+        transition: background-color 0.2s;
+        background-color: $brand_header_color;
     }
 }
