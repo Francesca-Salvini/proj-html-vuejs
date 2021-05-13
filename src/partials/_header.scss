@@ -2,6 +2,22 @@
 
 header {
     background-color: $brand_header_color;
+    opacity: 0.9;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    .square {
+        background-color: $brand_header_color;
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+        position: absolute;
+        left: 50%;
+        top: 87%;
+    }
     
     .wrapper {
         display: flex;

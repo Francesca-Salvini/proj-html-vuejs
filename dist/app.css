@@ -87,6 +87,7 @@ img {
 
 body {
   font-family: "Fira Sans", sans-serif;
+  position: initial;
 }
 
 .sect_grey_bg {
@@ -246,6 +247,21 @@ h6 {
 
 header {
   background-color: #27aabe;
+  opacity: 0.9;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+header .square {
+  background-color: #27aabe;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 50%;
+  top: 87%;
 }
 header .wrapper {
   display: flex;
@@ -281,15 +297,6 @@ header .wrapper nav i {
 
 .jumbotron {
   position: relative;
-}
-.jumbotron .square {
-  background-color: #27aabe;
-  width: 20px;
-  height: 20px;
-  transform: rotate(45deg);
-  position: absolute;
-  left: 50%;
-  bottom: 99%;
 }
 .jumbotron p {
   font-size: 10px;
