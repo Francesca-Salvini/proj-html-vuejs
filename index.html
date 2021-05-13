@@ -348,32 +348,71 @@
 
         <!--FOOTER-->
 
-        <div class="wrapper">
+        
             <footer>
                 <!--prima sezione: MACRO (con wrapper).. 4 colonne (da popolare con VUE)-->
-        
-                <div class="left-col">
-                    <h6>avada tech forum</h6>
-                    <p>Sed semper, nisl id feugiat eleifend, erat est digssim felis, quis auctor elit enim nec ante. Cras et nibh risus. Pellentesque non mi sit amet mi intermentum.</p>
+                <div class="wrapper">
+                    <div class="sect_footer">
+                        <div class="left-col">
+                            <h6>avada tech forum</h6>
+                            <p>Sed semper, nisl id feugiat eleifend, erat est digssim felis, quis auctor elit enim nec ante. Cras et nibh risus. Pellentesque non mi sit amet mi intermentum.</p>
+                        </div>
+                        
+                            
+                        <ul v-for="elements in footer">
+                            <li >
+                                <h6>{{elements.h6}}</h6>
+                                <a href="#" v-for="sentence in elements.a">
+                                    <i class="fas fa-chevron-right"></i>
+                                    {{sentence}}</a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
-                
                     
-                <ul v-for="elements in footer">
-                    <li >
-                        <h6>{{elements.h6}}</h6>
-                        <a href="#" v-for="sentence in elements.a">
-                            <i class="fas fa-chevron-right"></i>
-                            {{sentence}}</a>
-                    </li>
-                </ul>
-                    
+                    <hr>
+                        
+                    <!--seconda sezione: copy + social icons-->
+                    <div class="wrapper">
+                        <div class="sect_footer last">
+                            <p>© Copyright 2012 - 2021 | Avada Theme by <span>Theme Fusion</span> | All Rights Reserved | Powered by <span>WordPress</span> </p>
+                        
+                            <div class="icons">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
+                        
+                    </div>
                     
                 
-
-                <!--seconda sezione: copy + social icons-->
             </footer>
-        </div>
+        
         
         <!--FINE FOOTER-->
     </div>

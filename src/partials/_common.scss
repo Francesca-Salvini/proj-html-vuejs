@@ -42,6 +42,10 @@ body {
     }
 }
 
+hr {
+    color: $brand_color_border_footer;
+}
+
 h2 {
     color: $brand_color_text_white;
     padding-top: 20px;
