@@ -28,6 +28,10 @@
                 font-size: 12px;
                 line-height: 20px;
                 padding: 5px 0;
+
+                &:hover {
+                    color: $brand_header_color;
+                }
             }
         }
 
@@ -55,6 +59,7 @@
                 border-radius: 50%;
                 justify-content: center;
                 align-items: center;
+                margin: 0px 5px;
 
                 &:first-child {
                     background-color: $brand_color_facebook;
@@ -80,6 +85,5 @@
     &.last {
         align-items: center;
     }
-
 }
 

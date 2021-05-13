@@ -24,6 +24,7 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
+
 // 2. SECTION WITH GREY BG COLOR
 
 .sect_grey_bg {
@@ -38,6 +39,11 @@ body {
         font-weight: 300;
         padding-top: 20px;
         letter-spacing: 2px;
+        font-size: 30px;
+    }
+
+    h5 {
+        padding-top: 0;
         font-size: 30px;
     }
 }
@@ -84,7 +90,7 @@ h6 {
 }
 
 .sect_title {
-    padding: 60px 0;
+    padding: 50px 0;
     text-align: center;
     position: relative;
 
@@ -153,19 +159,18 @@ h6 {
         width: 77%;
         margin: auto;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
 
         li {
             
-            width: 150px;
-            height: 150px;
+            width: calc((100% / 4) - 20px ) ;
+            height: 180px;
             background-color: #ffffff;
             border-top: 2px solid #399bc0;
             display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
-            margin-right: 30px;
             margin-top: 30px;
             
             
@@ -183,8 +188,13 @@ h6 {
             }
 
             span {
-                font-size: 14px;
+                font-size: 18px;
                 padding-top: 65px;
+
+                &:hover {
+                    transition: color 0.2s;
+                    color: $brand_color_onhover;
+                }
             }
             
 

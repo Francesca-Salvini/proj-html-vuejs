@@ -7,6 +7,7 @@
   font-size: 13px;
   border-radius: 2px;
   font-weight: 700;
+  cursor: pointer;
 }
 .black_bg.larger {
   padding: 12px 75px;
@@ -26,6 +27,7 @@
   font-size: 18px;
   border-radius: 2px;
   font-weight: 700;
+  cursor: pointer;
 }
 .blue_bg:hover {
   transition: background-color 0.2s;
@@ -101,6 +103,10 @@ body {
   letter-spacing: 2px;
   font-size: 30px;
 }
+.sect_grey_bg h5 {
+  padding-top: 0;
+  font-size: 30px;
+}
 
 hr {
   color: #aeaeae;
@@ -144,7 +150,7 @@ h6 {
 }
 
 .sect_title {
-  padding: 60px 0;
+  padding: 50px 0;
   text-align: center;
   position: relative;
 }
@@ -200,18 +206,17 @@ h6 {
   width: 77%;
   margin: auto;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 .tabs ul li {
-  width: 150px;
-  height: 150px;
+  width: calc((100% / 4) - 20px );
+  height: 180px;
   background-color: #ffffff;
   border-top: 2px solid #399bc0;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-right: 30px;
   margin-top: 30px;
 }
 .tabs ul li i {
@@ -226,8 +231,12 @@ h6 {
   color: #ffffff;
 }
 .tabs ul li span {
-  font-size: 14px;
+  font-size: 18px;
   padding-top: 65px;
+}
+.tabs ul li span:hover {
+  transition: color 0.2s;
+  color: #fc8c5e;
 }
 
 header {
@@ -362,7 +371,6 @@ input {
   width: 450px;
   padding: 10px;
   border-radius: 2px;
-  margin-bottom: 80px;
 }
 
 .sect_footer {
@@ -395,6 +403,9 @@ input {
   line-height: 20px;
   padding: 5px 0;
 }
+.sect_footer ul li a:hover {
+  color: #27aabe;
+}
 .sect_footer p {
   color: #969799;
   font-size: 12px;
@@ -414,6 +425,7 @@ input {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  margin: 0px 5px;
 }
 .sect_footer .icons ul li:first-child {
   background-color: #4562b0;
