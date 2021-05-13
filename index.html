@@ -348,9 +348,33 @@
 
         <!--FOOTER-->
 
-        <!--prima sezione: MACRO (con wrapper).. 4 colonne (da popolare con VUE)-->
+        <div class="wrapper">
+            <footer>
+                <!--prima sezione: MACRO (con wrapper).. 4 colonne (da popolare con VUE)-->
+        
+                <div class="left-col">
+                    <h6>avada tech forum</h6>
+                    <p>Sed semper, nisl id feugiat eleifend, erat est digssim felis, quis auctor elit enim nec ante. Cras et nibh risus. Pellentesque non mi sit amet mi intermentum.</p>
+                </div>
+                
+                    
+                <ul v-for="elements in footer">
+                    <li >
+                        <h6>{{elements.h6}}</h6>
+                        <a href="#" v-for="sentence in elements.a">
+                            <i class="fas fa-chevron-right"></i>
+                            {{sentence}}</a>
+                    </li>
+                </ul>
+                    
 
-        <!--seconda sezione: copy + social icons-->
+                    
+                
+
+                <!--seconda sezione: copy + social icons-->
+            </footer>
+        </div>
+        
         <!--FINE FOOTER-->
     </div>
 

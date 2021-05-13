@@ -1,0 +1,38 @@
+footer {
+
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .left-col {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        p {
+            color: $brand_color_text_grey;
+            line-height: 20px;
+            font-size: 12px;
+            
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        width: 20%;
+        li {
+            display: grid;
+            a {
+                text-decoration: none;
+                color: $brand_darker_color;
+                border-bottom: 1px solid $brand_color_border_footer;
+                font-size: 12px;
+                line-height: 20px;
+                padding: 5px 0;
+            }
+        }
+    }
+
+    
+
+}
+
