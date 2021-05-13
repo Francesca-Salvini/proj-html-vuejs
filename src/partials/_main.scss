@@ -1,3 +1,4 @@
+// MAIN
 // 1. JUMBOTRON 
 
 .jumbotron {
@@ -11,13 +12,13 @@
         position: absolute;
         left: 50%;
         bottom: 99%;
-        
     }
 
     p {
         font-size: 10px;
     }
 
+    // SECOND JUMBOTRON
     &.scd-jumb {
         padding-top: 45px;
         .jumbo_text {
@@ -35,6 +36,7 @@
         }
     }
 
+    // LAST JUMBOTRON
     &.last {
         text-align: center;
         img {
@@ -54,7 +56,7 @@
     
 }
 
-// MACRO
+// MACRO SECTION
 .macro {
     padding-bottom: 90px;
 }
@@ -73,8 +75,6 @@
             left: 8%;
         }
     }
-
-    
 
     .title-pics {
         display: flex;

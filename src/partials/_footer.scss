@@ -1,5 +1,7 @@
-.sect_footer {
+// FOOTER
 
+// SECTION FOOTER (2)
+.sect_footer {
     padding: 60px 0;
     display: flex;
     justify-content: space-between;
@@ -47,6 +49,7 @@
         }
     }
 
+    // ICONS (LAST SECTION IN FOOTER)
     .icons {
         ul {
             list-style-type: none;

@@ -11,8 +11,8 @@ img {
     width: 100%;
 }
 
-
 // WRAPPER 
+
 .wrapper {
     max-width: 65%;
     margin: auto;
@@ -23,7 +23,6 @@ img {
 body {
     font-family: 'Fira Sans', sans-serif;
 }
-
 
 // 2. SECTION WITH GREY BG COLOR
 
@@ -48,16 +47,22 @@ body {
     }
 }
 
+// HR
+
 hr {
     color: $brand_color_border_footer;
 }
+
+// H2 
 
 h2 {
     color: $brand_color_text_white;
     padding-top: 20px;
     font-size: 26px;
-
 }
+
+// H3
+
 h3 {
     color: $brand_color_small_title;
     font-size: 15px;
@@ -65,6 +70,8 @@ h3 {
     letter-spacing: 4px;
     padding-bottom: 15px;
 }
+
+// H4
 
 h4 {
     color: $brand_color_text_white;
@@ -74,12 +81,16 @@ h4 {
     text-transform: uppercase;
 }
 
+// H5
+
 h5 {
     color: $brand_color_linkto;
     font-weight: 400;
     font-size: 20px;
     padding: 40px 0px 25px 0px;
 }
+
+// H6
 
 h6 {
     color: $brand_color_linkto;
@@ -88,6 +99,8 @@ h6 {
     text-transform: uppercase;
     padding-bottom: 25px;
 }
+
+// SECTION TITLE 
 
 .sect_title {
     padding: 50px 0;
@@ -126,7 +139,6 @@ h6 {
     padding-top: 30px;
     .one-pic-description:nth-child(2) {
         padding: 0px 20px;
-
     }
 
     .description {
@@ -173,7 +185,6 @@ h6 {
             position: relative;
             margin-top: 30px;
             
-            
             i {
                 width: 60px;
                 height: 60px;
@@ -196,8 +207,6 @@ h6 {
                     color: $brand_color_onhover;
                 }
             }
-            
-
         }
     }
 }

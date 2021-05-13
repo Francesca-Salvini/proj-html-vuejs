@@ -1,3 +1,4 @@
+// BUTTON WITH BLACK BACKGROUND
 .black_bg {
     background-color: $brand_darker_color;
     color: $brand_color_text_white;
@@ -14,7 +15,7 @@
         margin-left: 20px;
     }
 
-    // passandoci sopra, il tasto cambia colore
+    // HOVER, CHANGE COLOR
     &:hover {
         transition: background-color 0.2s;
         background-color: $brand_color_onhover;
@@ -22,6 +23,7 @@
     }
 }
 
+// BUTTONS WITH BLUE BACKGROUND
 .blue_bg {
     background-color: $brand_buttons_color;
     color: $brand_color_text_white;
@@ -33,14 +35,13 @@
     font-weight: 700;
     cursor: pointer;
 
-    // passandoci sopra, il tasto cambia colore
+    // HOVER, CHANGE COLOR
     &:hover {
         transition: background-color 0.2s;
         background-color: $brand_color_onhover;
 
     }
 }
-
 
 // JUMBOTRON
 
@@ -53,7 +54,6 @@
 
         h1 {
             font-size: 150px;
-            
         }
 
         p {
