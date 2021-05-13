@@ -239,6 +239,11 @@ h6 {
   color: #fc8c5e;
 }
 
+.one-pic-description:hover img {
+  transform: scale(0.9);
+  transition: all 0.2s;
+}
+
 header {
   background-color: #27aabe;
 }

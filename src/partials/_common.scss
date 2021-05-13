@@ -210,3 +210,11 @@ h6 {
         }
     }
 }
+
+// ON HOVER, PICS WITH DESCRIPTIONS
+
+
+.one-pic-description:hover img {
+    transform: scale(0.9);
+    transition: all 0.2s;
+}
